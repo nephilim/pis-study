@@ -1,0 +1,19 @@
+Traversable, Iterable and Seq
+------------------------------
+
+
+First-Order vs Higher-Order
+----------------------------
+
+for -> own generator
+	- foreach, map, withFilter, and flatMap
+
+TraversableOnce 
+----------------
+
+Traversable 
+------------
+	- All operations are guaranteed to be performed in a single-threaded manner.
+
+ParSeq
+-------
