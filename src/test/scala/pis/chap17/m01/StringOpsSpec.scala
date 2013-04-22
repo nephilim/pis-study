@@ -27,9 +27,8 @@ class StringOpsSpec extends Spec with BeforeAndAfter {
     it("filter" ) {
     	val result = so.filter( _ % 2 == 1 )
     	assert(result.equals("ACE"));
-    }
-    
+    }    
   }
-  
+
   
 }
